@@ -29,6 +29,7 @@
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#product" class="nav-link">Product</a></li>
         <li><a href="#education" class="nav-link">Education</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
@@ -71,7 +72,7 @@
       </div>
       <div class="hero-stats">
         <div class="stat-item">
-          <span class="stat-number">2</span>
+          <span class="stat-number">3</span>
           <span class="stat-label">Projects</span>
         </div>
         <div class="stat-divider"></div>
@@ -486,11 +487,195 @@
     </div>
   </section>
 
+  <!-- SaaS Product Section -->
+  <section id="product" class="section product-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 / Product</span>
+        <h2 class="section-title">SaaS Product</h2>
+      </div>
+
+      <div class="product-hero-card" id="vaarta-hero">
+        <div class="product-hero-left">
+          <div class="product-badge-row">
+            <span class="product-live-badge">
+              <span class="status-dot"></span>
+              Live Product
+            </span>
+            <span class="product-type-badge">Cybersecurity SaaS</span>
+            <span class="product-origin-badge">India-Focused</span>
+          </div>
+          <h3 class="product-name">Vaarta.space</h3>
+          <p class="product-tagline">India's leading free domain security scanning platform</p>
+          <p class="product-description">
+            An AI-powered domain security scanner that performs passive audits across SSL certificates,
+            DNS records, HTTP security headers, and email authentication. Built with a dual-mindset AI
+            engine using Google Gemini — analysing targets from both offensive (attacker) and defensive
+            (compliance) perspectives. Mapped to India's DPDP Act 2023 and CERT-In guidelines.
+          </p>
+          <div class="product-hero-actions">
+            <a href="https://vaarta.space" target="_blank" rel="noopener" class="btn btn-primary" id="vaarta-visit-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+              Visit Vaarta.space
+            </a>
+          </div>
+        </div>
+        <div class="product-hero-right">
+          <div class="product-stat-grid">
+            <div class="product-stat" id="pstat-modules">
+              <span class="product-stat-num">8</span>
+              <span class="product-stat-lbl">Security Modules</span>
+            </div>
+            <div class="product-stat" id="pstat-ai">
+              <span class="product-stat-num">AI</span>
+              <span class="product-stat-lbl">Powered by Gemini</span>
+            </div>
+            <div class="product-stat" id="pstat-free">
+              <span class="product-stat-num">Free</span>
+              <span class="product-stat-lbl">No Signup Required</span>
+            </div>
+            <div class="product-stat" id="pstat-india">
+              <span class="product-stat-num">IN</span>
+              <span class="product-stat-lbl">DPDP Act Compliant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Security Modules -->
+      <div class="product-modules" id="vaarta-modules">
+        <h3 class="product-subsection-title">Security Scanning Modules</h3>
+        <div class="modules-grid">
+
+          <div class="module-card" id="mod-ssl">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg>
+            </div>
+            <h4 class="module-name">SSL Certificate Analysis</h4>
+            <p class="module-desc">Expiry dates, certificate issuers, and trust chain integrity verification</p>
+          </div>
+
+          <div class="module-card" id="mod-dns">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3"/></svg>
+            </div>
+            <h4 class="module-name">DNS Record Audit</h4>
+            <p class="module-desc">A, MX, TXT, CNAME, and NS record analysis for misconfigurations</p>
+          </div>
+
+          <div class="module-card" id="mod-headers">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"/></svg>
+            </div>
+            <h4 class="module-name">HTTP Security Headers</h4>
+            <p class="module-desc">CSP, HSTS, X-Frame-Options, X-Content-Type-Options grading</p>
+          </div>
+
+          <div class="module-card" id="mod-email">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+            </div>
+            <h4 class="module-name">Email Security</h4>
+            <p class="module-desc">SPF, DKIM, and DMARC record validation to prevent email spoofing</p>
+          </div>
+
+          <div class="module-card" id="mod-subdomain">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/></svg>
+            </div>
+            <h4 class="module-name">Subdomain Discovery</h4>
+            <p class="module-desc">Exposed subdomains via certificate transparency log analysis</p>
+          </div>
+
+          <div class="module-card" id="mod-ai">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg>
+            </div>
+            <h4 class="module-name">AI-Powered Analysis</h4>
+            <p class="module-desc">Dual-mindset insights via Google Gemini — offensive and defensive perspectives</p>
+          </div>
+
+          <div class="module-card" id="mod-dpdp">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+            </div>
+            <h4 class="module-name">DPDP Act Compliance</h4>
+            <p class="module-desc">Findings mapped to India's Digital Personal Data Protection Act 2023</p>
+          </div>
+
+          <div class="module-card" id="mod-breach">
+            <div class="module-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/></svg>
+            </div>
+            <h4 class="module-name">Breach Detection</h4>
+            <p class="module-desc">Domain breach history and data exposure identification</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Pricing Tiers -->
+      <div class="product-pricing" id="vaarta-pricing">
+        <h3 class="product-subsection-title">Pricing</h3>
+        <div class="pricing-grid">
+
+          <div class="pricing-card" id="price-free">
+            <div class="pricing-tier">Free</div>
+            <div class="pricing-amount">
+              <span class="pricing-currency">&#8377;</span>
+              <span class="pricing-value">0</span>
+            </div>
+            <p class="pricing-cadence">Lifetime &mdash; No signup required</p>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>3 lifetime scans</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Basic SSL &amp; DNS analysis</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>HTTP header grading</li>
+            </ul>
+          </div>
+
+          <div class="pricing-card pricing-card--featured" id="price-basic">
+            <div class="pricing-popular-badge">Most Popular</div>
+            <div class="pricing-tier">Basic</div>
+            <div class="pricing-amount">
+              <span class="pricing-currency">&#8377;</span>
+              <span class="pricing-value">149</span>
+            </div>
+            <p class="pricing-cadence">per month</p>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>30 scans / month</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Full AI analysis</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Email security (SPF, DKIM, DMARC)</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>PDF report exports</li>
+            </ul>
+          </div>
+
+          <div class="pricing-card" id="price-core">
+            <div class="pricing-tier">Core</div>
+            <div class="pricing-amount">
+              <span class="pricing-currency">&#8377;</span>
+              <span class="pricing-value">399</span>
+            </div>
+            <p class="pricing-cadence">per month</p>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>100 scans / month</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All 8 advanced modules</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Breach detection</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>DPDP Act &amp; CERT-In mapping</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Priority support</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- Education Section -->
   <section id="education" class="section education-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">05 / Education</span>
+        <span class="section-tag">06 / Education</span>
         <h2 class="section-title">Education &amp; Coursework</h2>
       </div>
       <div class="education-grid">
@@ -544,7 +729,7 @@
   <section id="contact" class="section contact-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">06 / Contact</span>
+        <span class="section-tag">07 / Contact</span>
         <h2 class="section-title">Get In Touch</h2>
       </div>
       <div class="contact-grid">
